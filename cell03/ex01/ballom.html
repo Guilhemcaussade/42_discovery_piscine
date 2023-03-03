@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="ballom.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function grossir(){
+        var cercle =document.getElementById ("cercle");
+        var taille =parseInt(cercle.clientHeight);
+        var nouvelle = taille + 10;
+        var couleur = cercle.style.backgroundColor;
+        cercle.style.width = nouvelle + "px";
+        cercle.style.height = nouvelle + "px";  
+        var nouvelle = (couleur == "red" ? "green" :(couleur == "green" ? "blue" : "red"));
+        cercle.style.backgroundColor = nouvelle ;
+
+        }
+    
+    </script>
+    <div id="cercle" onclick="grossir()"></div>
+</body>
+</html>

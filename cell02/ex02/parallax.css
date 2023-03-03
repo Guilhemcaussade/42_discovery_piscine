@@ -1,0 +1,36 @@
+#divBob {
+    background-image: url("index.jpeg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+#pBob {
+    text-align: center;
+    padding-top: 25%;
+    color: red;
+}
+
+#dark {
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+#pDark {
+    text-align: center;
+    padding-top: 25%;
+}
+
+#damn {
+    background-image: url("index.png");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#pDamn {
+    text-align: center;
+    padding-top: 25%;
+}

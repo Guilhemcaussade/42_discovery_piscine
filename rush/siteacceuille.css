@@ -1,0 +1,38 @@
+
+
+
+
+.fond{
+    justify-content: center;
+    background-image: url(https://images.frandroid.com/wp-content/uploads/2019/06/g12_ecole-42-2_1512x1512-px.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.CV1 {
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    margin-top: 60% ;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.CV2 {
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    margin-top: 0% ;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.bouton{
+    size-adjust: 2000px;
+    height: 2000px;
+    width: 1500px;
+}

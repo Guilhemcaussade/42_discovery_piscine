@@ -1,0 +1,9 @@
+if [ $# -eq 0 ] 
+then
+echo Il n y pas d argumemts
+else 
+for i in $*
+do
+    mkdir  "ex"$i
+done
+fi
